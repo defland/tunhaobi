@@ -1,0 +1,84 @@
+.jobstat-logo{
+    
+    display: inline-block;
+    height: 100px;
+
+
+}
+.jobstat-title{
+    
+    color: #fff;
+    display: block;
+    margin:2rem auto;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+.jobstat-span{
+    
+    color: #fff;
+    display: block;
+    margin:2rem auto;
+    font-weight: 300;
+    font-size: 14px;
+
+}
+.jobstat-btn{
+
+    font-size: 12px;
+}
+.desc h4{
+
+    font-size: 14px!important;
+}
+.desc p{
+    font-size: 13px;
+}
+.icon img{
+
+    height: 30px;
+}
+
+.jobs-position{
+
+}
+.jobs-position a {
+    
+    color: #333;
+
+}
+a {
+ 
+    text-decoration:none!important;
+
+}
+a:hover {
+    
+    color: #333;
+    text-decoration:none!important;
+
+}
+
+.jobs-img{
+
+    max-height: 120px;
+    height: 120px;
+    border-radius: 3px;
+    margin-bottom: 8px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.25);
+
+}
+.jobs-links:hover .jobs-img {
+
+    box-shadow: 0px 1px 4px rgba(0,0,0,.15);
+    -webkit-transform:translateY(-2px);
+    -moz-transform:translateY(-2px);
+    -ms-transform:translateY(-2px);
+    -o-transform:translateY(-2px);
+    transform:translateY(-2px);
+    -webkit-transition: all .1s ease-out;
+    -moz-transition: all .1s ease-out;
+    -ms-transition: all .1s ease-out;
+    -o-transition: all .1s ease-out;
+    transition: all .1s ease-out;
+}

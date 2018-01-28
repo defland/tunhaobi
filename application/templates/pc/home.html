@@ -1,0 +1,113 @@
+{% extends "pc/base.html" %}
+
+{% block title%} jobstat - IT职位数据统计分析站点 {%endblock%}
+
+
+{% block body%}
+
+<body>
+        <div class="main-wrapper-first relative">
+            <header>
+                <div class="container">
+                    <div class="header-wrap">
+                        <div class="header-top d-flex justify-content-between align-items-center">
+                            <div class="logo">
+                                <a href="/index"><img class="jobstat-logo" src="/static/img/jobstat.png" alt=""></a>
+                            </div>
+                            <div class="main-menubar d-flex align-items-center">
+                                <nav class="hide">
+                                    <a href="/index">首页</a>
+                                    <a href="/summary">职位聚合</a>
+                                    <a href="/about">关于</a>
+                                </nav>
+                                <div class="menu-bar"><span class="lnr lnr-menu"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="banner-area">
+                <div class="container">
+                    <div class="row justify-content-center height align-items-center">
+                        <div class="col-lg-8">
+                            <div class="banner-content text-center">
+                                <h2 class="jobstat-title">Jobstat</h2>
+                                <span class="jobstat-span" >透过150w+条IT职位数据分析，更了解你的职位</span>
+                                <br>
+                                <a href="/jobs" class="primary-btn d-inline-flex align-items-center jobstat-btn"><span>发现数据</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Start Feature Area -->
+            <section class="featured-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="single-feature d-flex flex-wrap justify-content-between">
+                                <div class="icon">
+                                    <img src="/static/img/stat.png" alt="">
+                                </div>
+                                <div class="desc">
+                                    <h4>百万条职位数据分析</h4>
+                                    <p>实时抓取百万条职位数据，多模型多维度统计分析</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="single-feature d-flex flex-wrap justify-content-between">
+                                <div class="icon">
+                                    <img  src="/static/img/see3.png" alt="">
+                                </div>
+                                <div class="desc">
+                                    <h4>数据可视化展示</h4>
+                                    <p>发现IT职位趋势、发现最新最热技术需求.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="single-feature d-flex flex-wrap justify-content-between">
+                                <div class="icon">
+                                    <img src="/static/img/huizong.png" alt="">
+                                </div>
+                                <div class="desc">
+                                    <h4>职位聚合工具箱</h4>
+                                    <p>多平台职位信息聚合.轻松了解职位详情</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Feature Area -->
+
+
+
+
+            <!-- Start footer Area -->
+            <footer class="footer-area">
+                <div class="container">
+                    <div class="footer-content d-flex flex-column align-items-center">
+                        <div class="copy-right-text text-white">Copyright &copy; 2018 All rights reserved</div>
+
+                    </div>
+                </div>
+            </footer>
+            <!-- End footer Area -->
+        </div>
+    </body>
+
+
+
+
+{%endblock%}
+
+
+
+
+
+{% block js %}
+
+{%endblock%}
