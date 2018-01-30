@@ -20,27 +20,160 @@
 <!-- content selection -->
 {% block body%}
 
+    <!-- 全部币种、和不同站点的价格 -->
+    <div class="container-fluid market-content">
 
- <div class="col s12 m7 ">
-    <h2 class="header">Horizontal Card</h2>
-    <div class="card horizontal">
-      <div class="card-image">
-        <img src="https://lorempixel.com/100/190/nature/6">
-      </div>
-      <div class="card-stacked">
-        <div class="card-content">
-          <p>I am a very simple card. I am good at containing small bits of information.</p>
+    <h4 class="app-h4">行情</h4><span class="app-span">全网数据同步时间 2018-01-30 20:45:04</span>
+      <div class="row">
+        <div class="col s12">
+          <ul class="tabs market-tabs">
+            <li class="tab col s1"><a href="#test1" class="active" >市值</a></li>
+            <li class="tab col s1"><a  href="#test2">OKEx</a></li>
+            <li class="tab col s1"><a href="#test3">币安</a></li>
+            <li class="tab col s1"><a href="#test4">火币</a></li>
+            <li class="tab col s1"><a href="#test5">gete.io</a></li>
+            <li class="tab col s1"><a href="#test6">Bittrex</a></li>
+            <li class="tab col s1"><a href="#test7">BigONE</a></li>
+          </ul>
         </div>
-        <div class="card-action">
-          <a href="#">This is a link</a>
+        <!-- all  -->
+        <div id="test1" class="col s12">
+
+            <div class="stand-excel">
+
+                <table class="highlight responsive-table z-depth-0">
+                    <thead>
+                        <tr >
+                            <th class="stand-excel-th" >币种</th>
+                            <th class="stand-excel-th" >最新价格</th>
+                            <th class="stand-excel-th" >涨幅(24小时)</th>
+                            <th class="stand-excel-th" >流通数量</th>
+                            <th class="stand-excel-th" >流通市值(万)</th>
+                            <th class="stand-excel-th" >交易额(亿元)</th>
+                            <th class="stand-excel-th" >一周波动</th>
+
+                        </tr>
+                    </thead>
+
+                <tbody>
+                  <tr>
+                        <td class="stand-excel-td" >BTC-比特币</td>
+                        <td class="stand-excel-td" ><a href="#">¥75432.93</a></td>
+                        <td class="stand-excel-td priceup" >+10%</td>
+                        <td class="stand-excel-td" >7543万</td>
+                        <td class="stand-excel-td" >11932亿</td>
+                        <td class="stand-excel-td" >993.93</td>
+                        <td class="stand-excel-td" >暂无</td>
+                  </tr>
+                    <tr>
+                        <td class="stand-excel-td" >EHT-以太坊</td>
+                        <td class="stand-excel-td" ><a href="#">¥75432.93</a></td>
+                        <td class="stand-excel-td" >-10%</td>
+                        <td class="stand-excel-td" >7543万</td>
+                        <td class="stand-excel-td" >11932亿</td>
+                        <td class="stand-excel-td" >993.93</td>
+                        <td class="stand-excel-td" >暂无</td>
+                  </tr>
+                                    <tr>
+                        <td class="stand-excel-td" >BTC-比特币</td>
+                        <td class="stand-excel-td" ><a href="#">¥75432.93</a></td>
+                        <td class="stand-excel-td priceup" >+10%</td>
+                        <td class="stand-excel-td" >7543万</td>
+                        <td class="stand-excel-td" >11932亿</td>
+                        <td class="stand-excel-td" >993.93</td>
+                        <td class="stand-excel-td" >暂无</td>
+                  </tr>
+                    <tr>
+                        <td class="stand-excel-td" >EHT-以太坊</td>
+                        <td class="stand-excel-td" ><a href="#">¥75432.93</a></td>
+                        <td class="stand-excel-td" >-10%</td>
+                        <td class="stand-excel-td" >7543万</td>
+                        <td class="stand-excel-td" >11932亿</td>
+                        <td class="stand-excel-td" >993.93</td>
+                        <td class="stand-excel-td" >暂无</td>
+                  </tr>
+                                    <tr>
+                        <td class="stand-excel-td" >BTC-比特币</td>
+                        <td class="stand-excel-td" ><a href="#">¥75432.93</a></td>
+                        <td class="stand-excel-td priceup" >+10%</td>
+                        <td class="stand-excel-td" >7543万</td>
+                        <td class="stand-excel-td" >11932亿</td>
+                        <td class="stand-excel-td" >993.93</td>
+                        <td class="stand-excel-td" >暂无</td>
+                  </tr>
+                    <tr>
+                        <td class="stand-excel-td" >EHT-以太坊</td>
+                        <td class="stand-excel-td" ><a href="#">¥75432.93</a></td>
+                        <td class="stand-excel-td" >-10%</td>
+                        <td class="stand-excel-td" >7543万</td>
+                        <td class="stand-excel-td" >11932亿</td>
+                        <td class="stand-excel-td" >993.93</td>
+                        <td class="stand-excel-td" >暂无</td>
+                  </tr>
+                                    <tr>
+                        <td class="stand-excel-td" >BTC-比特币</td>
+                        <td class="stand-excel-td" ><a href="#">¥75432.93</a></td>
+                        <td class="stand-excel-td priceup" >+10%</td>
+                        <td class="stand-excel-td" >7543万</td>
+                        <td class="stand-excel-td" >11932亿</td>
+                        <td class="stand-excel-td" >993.93</td>
+                        <td class="stand-excel-td" >暂无</td>
+                  </tr>
+                    <tr>
+                        <td class="stand-excel-td" >EHT-以太坊</td>
+                        <td class="stand-excel-td" ><a href="#">¥75432.93</a></td>
+                        <td class="stand-excel-td" >-10%</td>
+                        <td class="stand-excel-td" >7543万</td>
+                        <td class="stand-excel-td" >11932亿</td>
+                        <td class="stand-excel-td" >993.93</td>
+                        <td class="stand-excel-td" >暂无</td>
+                  </tr>
+                                    <tr>
+                        <td class="stand-excel-td" >BTC-比特币</td>
+                        <td class="stand-excel-td" ><a href="#">¥75432.93</a></td>
+                        <td class="stand-excel-td priceup" >+10%</td>
+                        <td class="stand-excel-td" >7543万</td>
+                        <td class="stand-excel-td" >11932亿</td>
+                        <td class="stand-excel-td" >993.93</td>
+                        <td class="stand-excel-td" >暂无</td>
+                  </tr>
+                    <tr>
+                        <td class="stand-excel-td" >EHT-以太坊</td>
+                        <td class="stand-excel-td" ><a href="#">¥75432.93</a></td>
+                        <td class="stand-excel-td" >-10%</td>
+                        <td class="stand-excel-td" >7543万</td>
+                        <td class="stand-excel-td" >11932亿</td>
+                        <td class="stand-excel-td" >993.93</td>
+                        <td class="stand-excel-td" >暂无</td>
+                  </tr>
+
+
+                </tbody>
+              </table>
+
+            </div>
+
+
         </div>
+        <div id="test2" class="col s12">Test 2</div>
+        <div id="test3" class="col s12">Test 3</div>
+        <div id="test4" class="col s12">Test 4</div>
       </div>
+
+
+
     </div>
-  </div>
 
+
+
+{%endblock%}
+
+
+{%block js%}
 
 
 
 
 
 {%endblock%}
+

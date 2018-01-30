@@ -24,13 +24,6 @@ body{
 
 }
 
-h1,h2,h3,h4,h5{
-
-    top: 0px!important;
-    bottom: 0px!important;
-    line-height: 1.2!important;
-    text-transform:capitalize;
-}
 
 a {
     text-decoration:none!important;
@@ -39,7 +32,29 @@ a {
 }
 /*============================overlays=============================*/
 
+.app-h4,.app-h5{
 
+    display: inline-block;
+    font-size: 16px!important;
+    color: #666;
+    margin-left: 8px;
+}
+.app-span{
+
+    margin-left: 10px;
+    font-size: 12px;
+    color: #999;
+}
+table{
+    border-collapse:initial!important;
+}
+td, th {
+    padding: 5px 5px!important;
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+    border-radius: 2px;
+}
 
 
 /*============================COMMPONENT.HTML=============================*/
@@ -70,7 +85,7 @@ a {
 .nav-logo{
 
     margin-top: 10px;
-    padding-left: 10px;
+    padding-left: 20px;
 
     display: block;
 
@@ -87,6 +102,12 @@ a {
     background-color:  #fff!important;
 
 }
+.nav-logo-a p{
+
+   margin-top: 0px;
+
+}
+
 
 
 .nav-logo-img{
@@ -116,7 +137,7 @@ a {
 
 .nav-title{
 
-    padding-left: 10px;
+    padding-left: 20px;
     font-size: 10px;
     color: #999;
 
@@ -125,7 +146,7 @@ a {
 .app-left-nav a{
 
     color: #666;
-    padding-left: 10px;
+    padding-left: 20px;
 
 
 }
@@ -188,11 +209,58 @@ a {
 }
 .topinfo-priceup{
 
-    color: #7FDB3F;
+    color: green;
 }
 .topinfo-pricedown{
 
-    color: #CD111D;
+    color: red;
 }
 
+/*============================MARKET.HTML=============================*/
+.market-content{
 
+    padding-left: 1px;
+
+}
+
+.market-tabs{
+
+    font-size: 12px;
+    border: 1px solid #f2F2F2;
+    border-bottom: 0px;
+
+}
+.market-tabs li a {
+
+    font-size: 12px!important;
+
+
+}
+
+.stand-excel{
+
+    background-color: #fff;
+    border-top: 1px solid #EDF0F2;
+    width: 100%;
+    min-height: 700px;
+    border: 1px solid #f2F2F2;
+    border-radius: 1px;
+    padding: 1px 4px;
+}
+.stand-excel-th{
+
+    font-size: 10px;
+    color: #888;
+}
+.stand-excel-td{
+    font-size: 12px;
+    color: #666;
+}
+.priceup{
+
+    color: green;
+}
+.pricedown{
+
+    color: red;
+}

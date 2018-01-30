@@ -72,10 +72,10 @@ Materialize is compatible with:
 
 - Chrome 35+
 - Firefox 31+
-- Safari 9+
+- Safari 7+
 - Opera
 - Edge
-- IE 11+
+- IE 10+
 
 ## Changelog
 For changelogs, check out [the Releases section of materialize](https://github.com/Dogfalo/materialize/releases) or the [CHANGELOG.md](CHANGELOG.md).
