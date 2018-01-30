@@ -1,0 +1,124 @@
+<!-- 这里放置常用组件 -->
+
+
+
+
+<!-- 网页标题栏块 -->
+
+{% macro all_left_nav(title="导航栏",description="左边导航栏")-%}
+
+
+    <div class="app-left-nav z-depth-1 ">
+
+        <div class="nav-logo">
+
+            <a href="#" class="nav-logo-a" >
+                <!-- <h3>tunhaobi</h3> -->
+                <img class="nav-logo-img" src="/static/img/logo/logo.png" alt="logo"></img>
+                <p>透过数据发现价值</p>
+            </a>
+
+        </div>
+
+        <div class="nav-content">
+
+
+            <div class="nav-list-content">
+
+                <p class="nav-title">市场</p>
+                <a href="#" class="navlist navselect  waves-effect waves-brown waves-ripple">
+                    <img src="/static/img/nav/stock.png">
+                    行情
+                </a>
+                <a href="#" class="navlist  waves-effect waves-brown waves-ripple">
+                    <img src="/static/img/nav/information.png">
+                    资讯聚合
+                </a>
+
+                <a href="#" class="navlist waves-effect waves-brown waves-ripple">
+                    <img src="/static/img/nav/ico.png">
+                    ICO项目
+                </a>
+            </div>
+
+            <div class="nav-list-content">
+
+                <p class="nav-title">监控</p>
+
+                <a href="#" class="navlist  waves-effect waves-brown waves-ripple">
+                    <img src="/static/img/nav/hot.png">
+                    热度分析
+                </a>
+
+                <a href="#" class="navlist waves-effect waves-brown waves-ripple">
+                    <img src="/static/img/nav/code.png">
+                    GITHUB监控
+                </a>
+
+            </div>
+
+
+<!--
+            <p>监控</p>
+            <ul>
+                <li>
+                    <a class=" waves-effect waves-brown waves-ripple" href="/index"><img src="../static/img/nav/boxs.png" alt="">
+                    <p>媒体热度</p></a>
+                </li>
+
+                <li>
+                    <a class=" waves-effect waves-brown waves-ripple" href="/books"><img src="../static/img/nav/book.png" alt="">
+                    <p>GITHUB更新频率</p></a>
+                </li>
+
+            </ul>
+
+            <p>工具</p>
+            <ul>
+                <li>
+                    <a class=" waves-effect waves-brown waves-ripple" href="/index"><img src="../static/img/nav/boxs.png" alt="">
+                    <p>汇率转换</p></a>
+                </li>
+
+                <li>
+                    <a class=" waves-effect waves-brown waves-ripple" href="/books"><img src="../static/img/nav/book.png" alt="">
+                    <p>囤币管理</p></a>
+                </li>
+
+            </ul>
+
+            <p>我的</p>
+            <ul>
+                <li>
+                    <a class=" waves-effect waves-brown waves-ripple" href="/index"><img src="../static/img/nav/boxs.png" alt="">
+                    <p>我的币仓</p></a>
+                </li>
+
+            </ul>
+ -->
+
+
+        </div>
+
+
+
+    </div>
+
+{%- endmacro %}
+
+<!-- 顶部价格区域 -->
+{% macro topinfo(BTC="price",ETH="price")-%}
+
+
+    <div class="topinfo z-depth-0">
+
+        <span>币数量:1430 </span><p class=""></p>
+        <span>BTC:¥74032 </span><p class="topinfo-priceup">-8%</p>
+        <span>ETH:¥7802 </span><p class="topinfo-pricedown">+3%</p>
+        <span>EOS:¥98 </span><p class="topinfo-priceup">-1%</p>
+        <span>QUTM:¥703 </span><p class="topinfo-priceup">+1%</p>
+
+    </div>
+
+
+{%-endmacro%}

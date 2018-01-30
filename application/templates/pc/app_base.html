@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="zh">
 <head>
@@ -13,22 +14,41 @@
     <meta content="pass" name="description">
 
     <!-- css导入 -->
-    <link rel="stylesheet" href="/static/css/main.css">
-    <link rel="stylesheet" href="/static/css/jobstat-main.css">
+    <link rel="stylesheet" href="/static/materialize/css/materialize.css">
     <link rel="stylesheet" href="/static/css/bootstrap.css">
     <link rel="stylesheet" href="/static/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/static/css/linearicons.css">
-    <link rel="stylesheet" href="/static/css/magnific-popup.css">
-    <link rel="stylesheet" href="/static/css/nice-select.css">
-
+    <link rel="stylesheet" href="/static/app_css/app.css">
 
 </head>
 <body>
+
+    <!-- 导航 -->
+
+    <!-- 引入组件 -->
+
+    {% import '/pc/app_component.html' as app %}
+
+    <!-- 导航 -->
+    {%block leftnav%}
+
+        {{ app.all_left_nav(title="课程标题",description="课程副标题") }}
+
+    {%endblock%}
+
+    <!-- 内容区顶部快速浏览区  -->
+    {%block topinfo%}
+
+        {{ app.topinfo(BTC="price",ETH="price") }}
+
+
+    {%endblock%}
 
 
 
     <!-- 内容 -->
     {%block body%}
+
+
 
 
     {%endblock%}
@@ -42,7 +62,7 @@
     <script src="/static/js/vendor/bootstrap.min.js"></script>
     <script src="/static/js/jquery.ajaxchimp.min.js"></script>
     <script src="/static/js/jquery.nice-select.min.js"></script>
-    <script src="/static/js/main.js"></script>
+    <script src="/static/materialize/js/materialize.js"></script>
     <!-- 自定义CSS -->
     {%block js%}
 

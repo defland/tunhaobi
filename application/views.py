@@ -6,6 +6,11 @@ from flask import request, render_template, redirect, url_for, session, make_res
 @app.route('/')
 @app.route('/index')
 def home():
+    return render_template('pc/app_market.html')
+
+
+@app.route('/hello')
+def hello():
     return render_template('pc/home.html')
 
 

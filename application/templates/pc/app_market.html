@@ -1,0 +1,46 @@
+{% extends "pc/app_base.html" %}
+
+{% block title%} 囤好币 - 透过数据发现高价值币种 {%endblock%}
+
+
+<!-- nav selection -->
+{%block leftnav%}
+
+ {{super()}}
+
+{%endblock%}
+
+<!-- 内容区顶部快速浏览区  -->
+    {%block topinfo%}
+
+        {{ super() }}
+
+    {%endblock%}
+
+<!-- content selection -->
+{% block body%}
+
+
+ <div class="col s12 m7 ">
+    <h2 class="header">Horizontal Card</h2>
+    <div class="card horizontal">
+      <div class="card-image">
+        <img src="https://lorempixel.com/100/190/nature/6">
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information.</p>
+        </div>
+        <div class="card-action">
+          <a href="#">This is a link</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+{%endblock%}
