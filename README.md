@@ -10,8 +10,8 @@
 
 后端：
 - Flask框架 RESTful API方法，Json数据交互
-- SQLAlchemy ORM管理数据
-- Catspiser工具承担处理业务爬虫
+- SQLAlchemy ORM管理数据 
+- Catspiser工具承担处理业务爬虫 https://github.com/defland/CatSpider
 
 前端：
 
