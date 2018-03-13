@@ -30,3 +30,12 @@ v1: （10% ing）
 v2:
 
 - 能够监控github更新频率
+
+
+# 实例截图demo 
+
+web version
+
+[![9fL85d.png](https://s1.ax1x.com/2018/03/13/9fL85d.png)](https://imgchr.com/i/9fL85d)
+
+
